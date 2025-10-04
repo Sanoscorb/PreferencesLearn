@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Preferences Learn</string>
+    <string name="btnSave">Сохранить</string>
+    <string name="btnLoad">Загрузить</string>
+    <string name="toastSave">Текст сохранён</string>
+    <string name="toastLoad">Текст загружен</string>
+</resources>
