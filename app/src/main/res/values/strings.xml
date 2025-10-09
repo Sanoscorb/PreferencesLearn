@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Preferences Learn</string>
-    <string name="btnSave">Save</string>
-    <string name="btnLoad">Load</string>
-    <string name="toastSave">Text saved</string>
-    <string name="toastLoad">Text loaded</string>
+    <string name="button_save">Save</string>
+    <string name="button_load">Load</string>
+    <string name="toast_save">Text saved</string>
+    <string name="toast_load">Text loaded</string>
 </resources>
