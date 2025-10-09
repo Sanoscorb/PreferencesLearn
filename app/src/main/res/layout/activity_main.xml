@@ -13,7 +13,7 @@
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/etText"
+            android:id="@+id/edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <requestFocus />
@@ -25,7 +25,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btnSave"
+                android:id="@+id/button_save"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/btnSave"
@@ -33,7 +33,7 @@
             </Button>
 
             <Button
-                android:id="@+id/btnLoad"
+                android:id="@+id/button_load"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/btnLoad"
