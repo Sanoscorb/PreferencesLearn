@@ -31,7 +31,7 @@
                 android:id="@+id/button_save"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/btnSave"
+                android:text="@string/button_save"
                 tools:ignore="ButtonStyle">
             </Button>
 
@@ -39,7 +39,7 @@
                 android:id="@+id/button_load"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/btnLoad"
+                android:text="@string/button_load"
                 tools:ignore="ButtonStyle">
             </Button>
 

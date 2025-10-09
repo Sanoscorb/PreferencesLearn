@@ -4,4 +4,5 @@
     <string name="button_load">Load</string>
     <string name="toast_save">Text saved</string>
     <string name="toast_load">Text loaded</string>
+    <string name="edit_text_hint">Enter a text</string>
 </resources>
