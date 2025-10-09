@@ -40,14 +40,14 @@ public class MainActivity extends Activity implements OnClickListener {
         preferences = getPreferences(MODE_PRIVATE);
         Editor ed = preferences.edit();
         ed.putString(SAVED_TEXT, editText.getText().toString());
-        ed.commit();
-        Toast.makeText(this, R.string.toastSave, Toast.LENGTH_SHORT).show();
+        ed.apply();
+        Toast.makeText(this, R.string.toast_save, Toast.LENGTH_SHORT).show();
     }
 
     void loadText() {
         preferences = getPreferences(MODE_PRIVATE);
         String savedText = preferences.getString(SAVED_TEXT, "");
         editText.setText(savedText);
-        Toast.makeText(this, R.string.toastLoad, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, R.string.toast_load, Toast.LENGTH_SHORT).show();
     }
 }
